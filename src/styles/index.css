@@ -26,5 +26,11 @@
 .green{background-color: green;}
 
 .glow{
-    box-shadow: 0px 0px 12px 6px lightblue;
+    box-shadow: 0px 0px 12px 6px red;
+}
+.glow1{
+    box-shadow: 0px 0px 12px 6px yellow;
+}
+.glow2{
+    box-shadow: 0px 0px 12px 6px green;
 }
