@@ -8,12 +8,12 @@ export function Home() {
 
 	const cycleTrafficColors = () => {
 		if (cycleActive) {
-			if (selectedColor === "green") {
+			if (selectedColor === "red") {
 				setSelectedColor("yellow");
 			} else if (selectedColor === "yellow") {
-				setSelectedColor("red");
-			} else if (selectedColor === "red") {
 				setSelectedColor("green");
+			} else if (selectedColor === "green") {
+				setSelectedColor("red");
 			}
 		}
 	};
